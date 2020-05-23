@@ -11,7 +11,8 @@ var promotionRouter = require('./routes/promotionRouter');
 var leadeRouter = require('./routes/leaderRouter');
 
 const mongoose = require('mongoose');
-const Dishes = require('./models/dishes');
+//const Dishes = require('./models/dishes');
+//const Promotions = require('./models/promotions');
 const url = 'mongodb://localhost:27017/restaurant';
 
 const connect = mongoose.connect(url);
